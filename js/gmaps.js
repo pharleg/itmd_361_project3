@@ -23,20 +23,17 @@ function initMap() {
         new google.maps.LatLng(nycLatLng.lat, nycLatLng.lng)
       );
 
-      const userMarker = new google.maps.AdvancedMarkerElement({
+      const userMarker = new google.maps.Marker({
         position: userLatLng,
         title: `You are ${distanceToNYC.toFixed(2)} meters away from New York City`,
         map: map
       });
 
-      const nycMarker = new google.maps.AdvancedMarkerElement({
+      const nycMarker = new google.maps.Marker({
         position: nycLatLng,
         title: 'New York City',
         map: map
       });
-
-      userMarker.content = '<div class="custom-marker">📍</div>';
-      nycMarker.content = '<div class="custom-marker">🗽</div>';
     });
   }
 }
