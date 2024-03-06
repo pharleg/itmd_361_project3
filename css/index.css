@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: url('../images/technology-background.jpeg');
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  position: relative;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: chartreuse;
+}
+
+.container {
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 30em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: auto;
+}
+
+#clock {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1em;
+  font-size: 14px;
+  color: chartreuse;
+}
+
+@media screen and (min-width: 900px} {
+  body {
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 1em 0.5em;
+  }
+  
+  nav ul li {
+    margin-right: 2em;
+  }
+  
+  iframe {
+    height: 40em;
+  }
+}

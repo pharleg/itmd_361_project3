@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ITMD 361 - Google Map - Your Location and The Nearest Large City</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/hackthebox.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="hackthebox.html">Hack The Box</a></li>
+          <li><a href="googlemaps.html">Google Map</a></li>
+        </ul>
+      </nav>
+    <div id="clock"></div>
+    </header>
+    <style>
+      #map {
+      height: 400px;
+      width: 100%;
+    }
+    </style>
+  <h1>Google Map - Your Location and the Nearest Large City</h1>
+  <div id="map"></div>
+  <script src="./js/gmaps.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUb8OaY6pnHh411J0KgUUZANfzweRuJ4Q&loading=async&libraries=geometry,drawing,places&callback=initMap"></script>
+</body>
+</html>
