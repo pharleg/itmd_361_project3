@@ -35,7 +35,7 @@ function initMap() {
         map: map
       });
       
-      document.getElementById('distanceNYC'.innerHTML = "Distance to NYC:" + distanceToNYC.toFixed(2) + " meters";
+      document.getElementById('distanceNYC').innerHTML = "Distance to NYC:" + distanceToNYC.toFixed(2) + " meters";
     });
   }
 }
