@@ -43,10 +43,6 @@ a {
   color: chartreuse;
 }
 
-.container {
-  text-align: center;
-}
-
 .title {
   text-align: center;
   margin-top: 1em;
@@ -56,11 +52,7 @@ a {
 .distanceNYC {
   text-align: center;
   margin-top: 0.5em;
-}
-
-iframe {
-  width: 100%;
-  height: 30em;
+  color: chartreuse;
 }
 
 footer {
