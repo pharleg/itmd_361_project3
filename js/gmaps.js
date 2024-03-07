@@ -25,7 +25,7 @@ function initMap() {
 
       const userMarker = new google.maps.Marker({
         position: userLatLng,
-        title: `You are ${distanceToNYC.toFixed(2)} meters away from New York City`,
+        title: `You are here!`,
         map: map
       });
 
@@ -34,6 +34,8 @@ function initMap() {
         title: 'New York City',
         map: map
       });
+      
+      document.getElementById('distanceNYC'.innerHTML = "Distance to NYC:" + distanceToNYC.toFixed(2) + " meters";
     });
   }
 }
