@@ -50,6 +50,7 @@ a {
 .title {
   text-align: center;
   margin-top: 1em;
+  color: chartreuse;
 }
 
 .distanceNYC {
@@ -64,7 +65,7 @@ iframe {
 
 footer {
   background-color: #333;
-  color: white;
+  color: chartreuse;
   text-align: center;
   padding: 1em 0;
   margin-top: auto;
